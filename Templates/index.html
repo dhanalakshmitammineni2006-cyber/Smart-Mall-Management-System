@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Product</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+    <h2>Add Product</h2>
+
+    <form method="POST">
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Price:</label><br>
+        <input type="number" name="price" required><br><br>
+
+        <label>Size:</label><br>
+        <input type="text" name="size" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <br>
+    <a href="/view">View Products</a> |
+    <a href="/logout">Logout</a>
+</body>
+</html>

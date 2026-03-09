@@ -1,0 +1,170 @@
+/* ===== Premium Modern Fonts ===== */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500;600;700;800&family=Manrope:wght@400;500;600&display=swap');
+
+body {
+    background: linear-gradient(135deg, #F3E8FF, #ECFEFF);
+    font-family: 'Manrope', sans-serif;
+    color: #1F2937;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.logo {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #7C3AED;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #374151;
+    padding: 8px 14px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+    background: linear-gradient(135deg, #7C3AED, #34D399);
+    color: white;
+}
+
+/* ===== Headings (Centered) ===== */
+h1, h2 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #7C3AED;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* ===== Paragraph Text ===== */
+p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    text-align: center;   /* Centers back/login text */
+}
+
+/* ===== Forms ===== */
+form {
+    background: rgba(255,255,255,0.85);
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    margin: 40px auto;
+    width: 90%;
+    max-width: 500px;
+}
+
+label {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+input, select {
+    width: 100%;
+    padding: 14px;
+    margin: 12px 0 20px 0;
+    border-radius: 12px;
+    border: 1.5px solid #E5E7EB;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #7C3AED;
+    box-shadow: 0 0 0 4px rgba(124,58,237,0.15);
+    outline: none;
+}
+
+/* ===== Buttons ===== */
+button {
+    background: linear-gradient(135deg, #7C3AED, #34D399);
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 14px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+    align-items: center;
+    text-align: center;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(124,58,237,0.25);
+    text-align: center;
+}
+
+/* ===== Table ===== */
+table {
+    width: 90%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+}
+
+th {
+    background: #7C3AED;
+    color: white;
+    padding: 16px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+}
+
+td {
+    padding: 14px;
+    font-family: 'Manrope', sans-serif;
+    border-bottom: 1px solid #F3F4F6;
+}
+
+tr:nth-child(even) {
+    background: #F9FAFB;
+}
+
+tr:hover {
+    background: #ECFEFF;
+}
+
+/* ===== Center Back/Login Links Specifically ===== */
+p a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #7C3AED;
+    text-align: center;
+}
+
+p a:hover {
+    text-decoration: underline;
+    text-align: center;
+}
